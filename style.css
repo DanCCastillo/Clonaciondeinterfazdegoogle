@@ -1,0 +1,39 @@
+/*Asi se pone un comentario*/
+body{
+    background-color:#ffa19f;
+    color: rgb(233, 233, 226);
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    color: rgb(237, 225, 7);
+    font-size: 30px;
+}
+
+h1,p{
+    color: rgb(70, 13, 95);
+}
+
+img {
+    /*width: 300px;
+    height: 300px;*/
+    border-style:ridge dashed;
+    border-color: rgb(184, 37, 11);
+    margin: 20px;
+    padding: 10px;
+}
+
+.img1{
+    width:300px ;
+    height: 230px;
+}
+
+.img2{
+    width:300px ;
+    height: 300px;
+}
+
+
+a,small{
+    color: rgb(255, 10, 161);
+}

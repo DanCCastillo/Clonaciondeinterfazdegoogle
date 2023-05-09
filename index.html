@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!--Identación-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Michis</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <h1>Página de Michis</h1>
+
+        <h3>Imagenes de gatitos</h3>
+
+        <!--Imagen desde internet-->
+        <img class="img1" src="https://stardewcommunitywiki.com/mediawiki/images/6/63/Pet_Bowl_empty.png">
+
+        <br>
+       
+        <!--imagen desde computadora-->
+        <img class="img2" src="imagenes/IMG-20230424-WA0012.jpg">
+
+        <!--crear enlaces externos-->
+        <p>Si quieres ver más imagenes de gatitos, 
+            <a href="https://es.stardewvalleywiki.com/Stardew_Valley_Wiki" target="_blank">da click aqui.</a>
+        </p>
+
+        <h3>Listas de Michis</h3>
+        <p> 4 cosas que los gatitos <strong>aman</strong></p>
+
+        <!--listas ordenadas-->
+        <ol>
+            <li>Catnip</li>  <!--List item-->
+            <li>Sobres</li>
+            <li>Dormir</li>
+            <li>Comer</li>
+         
+        </ol>
+        <!--Lista desordenada-->
+        <p>3 Cosas que los gatitos <i>odian</i></p>
+        <ul>
+            <li>Bañarse</li>
+            <li>Ruidos fuertes</li>
+            <li>Ratones</li>
+        </ul>
+
+
+        <!--Formularios-->   
+        <form>
+            <!--Formulario con botones de radio-->
+            <p>¿Tu gatito es Bebe o adulto ?</p>
+            <label>
+                <input id="bebé" type="radio" value="bebé"
+                name="bebé-adulto"
+                checked>Bebe
+
+            </label>
+            <br>
+            <label>
+                <input id="adulto" type="radio" value="adulto"
+                name="bebé-adulto">Adulto
+
+            </label>
+
+            <!--Formulario con casillas de verificacion-checks-->
+            <p>¿Que tipo de personalidad tiene tu michi?</p>
+            <label>
+                <input id="Serio" type="checkbox" value="Serio"
+                name="personalidad" checked>Serio
+            </label>
+            <br>
+            <label>
+                <input id="Dormilon" type="checkbox" value="Dormilon"
+                name="personalidad">Dormilon
+            </label>
+            <br>
+            <label>
+                <input id="Gato naranja" type="checkbox" value="Gato naranja"
+                name="personalidad">Gato naranja
+            </label>
+
+
+        </form>
+    
+    </body>
+
+    <footer>
+        <p><small>Está Página fue creada durante el bootcamp de 
+            <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO.</a></small></p>
+
+    </footer>
+    
+
+</html>
+<!--Comentarios-->
