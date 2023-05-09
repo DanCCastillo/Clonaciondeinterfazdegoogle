@@ -3,7 +3,7 @@
 ## Índice
 
 * [1. Intro.](https://github.com/DanCCastillo/Clonaciondeinterfazdegoogle#1-intro)
-* [2. Qué construi ](#)
+* [2. Qué construi ](https://github.com/DanCCastillo/Clonaciondeinterfazdegoogle#2-qu%C3%A9-constru%C3%AD)
 * [3. Objetivo del proyecto](#)
 
 ****
